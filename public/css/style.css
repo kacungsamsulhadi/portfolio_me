@@ -1178,14 +1178,6 @@ video {
   outline-offset: 2px;
 }
 
-.outline-double {
-  outline-style: double;
-}
-
-.outline-purple {
-  outline-color: #e879f9;
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1356,14 +1348,6 @@ body{
   color: rgb(20 184 166 / var(--tw-text-opacity));
 }
 
-.dark .dark\:border-2 {
-  border-width: 2px;
-}
-
-.dark .dark\:border-t-2 {
-  border-top-width: 2px;
-}
-
 .dark .dark\:border-b-2 {
   border-bottom-width: 2px;
 }
@@ -1391,6 +1375,16 @@ body{
 .dark .dark\:bg-softdark {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:text-purple {
@@ -1442,6 +1436,11 @@ body{
 .dark .dark\:focus\:bg-dark:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:focus\:bg-softdark:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .dark .group:hover .dark\:group-hover\:text-purple {
